@@ -5,20 +5,36 @@
   <meta charset="UTF-8">
   <title>Psychic-Game</title>
 
-  <!-- Added link to the jQuery CDN -->
+  <!-- Added link to the jQuery and Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="assets/style.css" type="text/css"/>
 
 </head>
 
 <body>
+  <div class="container">
+    <header class="header clearfix">
+    <h3 class="font-weight-bold float-left">Psychic-Game</h3>
+    <h3 class="float-right float-right">By: Anthony Knight</h3>
 
-  <h1>Psychic-Game</h1>
-  <h2>Guess what letter I am thinking off</h2>
+    </header>
+    <div class="jumbotron">
+      <h1 class="font-weight-bold text-center display-4 text-dark">Psychic-Game</h1>
+      <hr class="my-4">
+      <h2 class="text-center text-dark">Guess what letter I am thinking off</h2>
 
-  <div id="win"></div>
-  <div id="lose"></div>
-  <div id="guessleft"></div>
-  <div id="guessSoFar"></div>
+    </div>
+
+    <h4>Type a letter on the keyboard to guess! Good Luck!</h4>
+    <div id="win"></div>
+    <div id="lose"></div>
+    <div id="guessleft"></div>
+    <div id="guessSoFar"></div>
+
+
+  </div>
+</body>
 
   <script type="text/javascript">
 
@@ -103,6 +119,6 @@
 
 </script>
 
-</body>
+
 
 </html>
